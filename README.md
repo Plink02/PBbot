@@ -1,12 +1,13 @@
 # PB-bot
-This bot connects to twitch to discord and src to send pace alerts and retrieve PB data.
+This bot connects to twitch to discord and src to send pace alerts and retrieve PB data. If you would like the bot active in you twitch chat DM Plink#5726 on Discord.
 
 ## Commands
 
 ### **!pb (user) (category)**:
 
   Retrieves the entered user's PB for the specified category. No category specification will default to single segment
-  The user is searched for on speedrun.com. This means usernames do not have to be exact, but if somebody else has a very similar username to who you want to look up, results may be retrieved.
+  
+  The user is searched for on speedrun.com. This means usernames do not have to be exact, but if somebody else has a very similar username to who you want to look up, results may be retrieved. Categories MUST be spelled exactly as they appear on src. ("Glass Joe" is fine. "Joe" is not as src has no search functionality for categories.
   
   Examples: !pb plink Super Macho Man (retrieves macho man IL time)
             !pb plink Another World Circuit (retrieves AWC PB time)
