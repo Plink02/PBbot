@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import srcomapi, srcomapi.datatypes as dt
 import datetime
 
@@ -11,8 +10,8 @@ def findPB(player, categoryName="Single Segment"):
     games = api.search(dt.Game, {"name": "Mike Tyson"})
     game = games[0]
 
-    category = NULL
-    level = NULL
+    category = None
+    level = None
 
     #find user, if user not found return sorry message
     try:
@@ -26,7 +25,7 @@ def findPB(player, categoryName="Single Segment"):
         for cat in game.categories:
             if cat.name.lower() == categoryName.lower():
                 category = cat
-        if category == NULL:
+        if category == None:
             category = game.categories[1]
             for lev in game.levels:
                 if lev.name.lower() == categoryName.lower():
@@ -35,7 +34,7 @@ def findPB(player, categoryName="Single Segment"):
         return("Sorry! I couldn't locate that run category.")
 
     #if level is null find category leaderboard, otherwise find the specific level board
-    if level == NULL:
+    if level == None:
         leaderboard = dt.Leaderboard(api, data=api.get("leaderboards/{}/category/{}".format(game.id, category.id)))
     else:
         leaderboard = dt.Leaderboard(api, data=api.get("leaderboards/{}/level/{}/{}".format(game.id, level.id, category.id)))
