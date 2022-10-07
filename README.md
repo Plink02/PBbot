@@ -1,5 +1,5 @@
 # PB-bot
-This bot connects to twitch to discord and src to send pace alerts and retrieve PB data. If you would like the bot active in you twitch chat DM Plink#5726 on Discord.
+This bot connects to twitch to discord and src to send pace alerts and retrieve PB data. If you would like the bot active in your twitch chat DM Plink#5726 on Discord.
 
 ## Commands
 
