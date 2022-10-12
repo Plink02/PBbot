@@ -23,7 +23,7 @@ This bot connects to twitch, discord and src to send pace alerts and retrieve PB
   
   Example: 
   
-  !alert -3.58 into Mr. Sandman - if this alert is send from Plink02's chat the alert will look like **"@Pace Alerts Plink02 is -3.58 into Mr. Sandman twitch.tv/plink02"**
+  !alert -3.58 into Mr. Sandman - if this alert is sent from Plink02's chat the alert will look like **"@Pace Alerts Plink02 is -3.58 into Mr. Sandman twitch.tv/plink02"**
 
 
 **Extra Information:**
