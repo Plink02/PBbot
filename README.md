@@ -7,7 +7,7 @@ This bot connects to twitch, discord and src to send pace alerts and retrieve PB
 
   Retrieves the entered user's PB for the specified category. No category specification will default to single segment
   
-  The user is searched for on speedrun.com. This means usernames do not have to be exact, but if somebody else has a very similar username to who you want to look up, results may not be retrieved. Categories MUST be spelled exactly as they appear on src. ("Glass Joe" is fine. "Joe" is not as src has no search functionality for categories.
+  The user is searched for on speedrun.com. This means usernames do not have to be exact, but if somebody else has a very similar username to who you want to look up, results may not be retrieved. Categories MUST be spelled exactly as they appear on src. ("Glass Joe" or "glass joe" is fine. "Joe" is not as src has no search functionality for categories).
   
   Examples: 
   
