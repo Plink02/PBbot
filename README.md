@@ -19,7 +19,7 @@ This bot connects to twitch, discord and src to send pace alerts and retrieve PB
  
 ### **!alert (information)**:
 
-  Sends a pace alert with the submitted information. Pinged roles, username and twitch link are automatically filled in based on what chat it is sent from 
+  Sends a pace alert with the submitted information. Pinged roles, username and twitch link are automatically filled in based on what chat it is sent from. (Currently sends alert to a test server). 
   
   Example: 
   
