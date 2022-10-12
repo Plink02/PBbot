@@ -10,7 +10,9 @@ This bot connects to twitch, discord and src to send pace alerts and retrieve PB
   The user is searched for on speedrun.com. This means usernames do not have to be exact, but if somebody else has a very similar username to who you want to look up, results may be retrieved. Categories MUST be spelled exactly as they appear on src. ("Glass Joe" is fine. "Joe" is not as src has no search functionality for categories.
   
   Examples: !pb plink Super Macho Man (retrieves macho man IL time)
+  
             !pb plink Another World Circuit (retrieves AWC PB time)
+            
             !pb plink (retrieves plink's single segment PB)
  
 ### **!alert (information)**:
