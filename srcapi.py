@@ -18,7 +18,7 @@ def findPB(player, categoryName="Single Segment"):
         users = api.search(dt.User, {"name": player})
         userId = users[0].id
     except:
-        return("Sorry! I couldn't find a PB for that user.")
+        return("Sorry! I couldn't find a PB for " + player)
 
     #find category/level, if not found, send sorry message
     try:
