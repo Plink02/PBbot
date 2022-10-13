@@ -49,6 +49,8 @@ async def get_player_pb(ctx):
   content = content[4::]
   params = content.split(None,1)
   player = params[0]
+  if player.startswith('@'):
+    player = player[1::]
   #if only player is entered, default to any%/single segment
   if len(params) > 1:
     category = params[1]
